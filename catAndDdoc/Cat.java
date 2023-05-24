@@ -1,11 +1,12 @@
-package atividade;
+package catAnddog;
 
 public class Cat extends Animal {
+
 
 	@Override
 	public void falar() {
 		// TODO Auto-generated method stub
-		System.out.println("miauuuuuuuuuuuuuuuuuuuuuuuuuuu");
+		System.out.println("miauuuuuuuuu");
 	}
 
 }
