@@ -7,13 +7,6 @@ private double salario;
 public abstract void aumentasalario(double salario);
 
 
-
-public Funcionario() {
-	super();
-}
-
-
-
 public String getNome() {
 	return nome;
 }
