@@ -45,7 +45,9 @@ public class App {
 		lAssociados.add(associado3);
 		
 		for (ProfessorAssociado prof : lAssociados) {
-			System.out.println("nome: " + prof.getNome()+prof.getSalario());		}
+			System.out.println("Nome: " + prof.getNome());
+			System.out.println("Salario " + prof.getSalario()
+		}
 		
 	}	
 	
