@@ -9,17 +9,30 @@ public class App {
 		// TODO Auto-generated method stub
 		List<Dono>donos=new ArrayList<Dono>();
 		
+		Animal cachorro = new Cachorro();
+		Animal gato = new Gato();
 		
-		Animal cachoro1 = new Cachoro();
-		cachoro1.setNome("caca");
+		Dono dono = new Dono();
+		dono.getAnimais().add(cachorro);
+		dono.getAnimais().add(gato);
+		dono.getNome("Paulo mendos");
+		donos.add(dono);
+		
+		Animal cachorro1 = new Cachorro();
 		Dono dono1 = new Dono();
-		dono1.setNome("jair");
+		dono.getAnimais().add(cachorro1);
+		dono.getNome("fernandes mendos");
+		donos.add(dono);
 		
-		Dono dono2 = new Dono();
-		dono2.setNome("jair");
-		Animal cachoro2 = new Cachoro();
-		cachoro2.setNome("caca");
-		
+		for (Dono x : donos){
+			System.out.println(x.getNome());
+			for (Animal animal : x.getAnimais()){
+				if(animal instanceof Cachorro){
+					if(animal.getNome() != null)
+						System.out.println("Nome do Cachorro: "+animal.getNome());
 	}
-
+	animal.fazerBarulho();
 }
+			System.out.println("----_____-----")
+			}
+	}
