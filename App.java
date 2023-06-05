@@ -63,6 +63,7 @@ public class App {
 
 				}
 			if (optionUser==0) {
+				System.out.println("----------_FIM_----------")
 				break;
 			}
 
