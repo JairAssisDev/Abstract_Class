@@ -6,6 +6,8 @@ import java.util.List;
 public class Dono {
 	private List<Veicolo>veicolos= new ArrayList<Veicolo>();
 	private List<Motorista>motoristas = new ArrayList<Motorista>();
+	
+	
 	private String nome;
 	
 	public List<Veicolo> getVeicolos() {
@@ -26,6 +28,7 @@ public class Dono {
 	public void setMotoristas(List<Motorista> motoristas) {
 		this.motoristas = motoristas;
 	}
+	
 	public void addINlist(Motorista motorista) {
 		motoristas.add(motorista);
 		
